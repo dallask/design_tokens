@@ -663,7 +663,28 @@
       }
     },
     "boxShadow": {
-      "default": {
+      "type A": {
+        "value": [
+          {
+            "x": 3,
+            "y": 3,
+            "spread": 3,
+            "color": "green",
+            "blur": 5,
+            "type": "dropShadow"
+          },
+          {
+            "x": 2,
+            "y": 2,
+            "spread": 3,
+            "color": "green",
+            "blur": 5,
+            "type": "innerShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "type B": {
         "value": [
           {
             "x": 5,
