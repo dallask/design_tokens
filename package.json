@@ -1,0 +1,28 @@
+{
+  "name": "design_tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tokens:transform": "token-transformer ./figma.tokens.json ./tokens/sd.tokens.json core",
+    "style:build": "style-dictionary build",
+    "style-dictionary:build": "node ./tokensTransform.js",
+    "build:all": "npm run tokens:transform && npm run style:build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dallask/design_tokens.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dallask/design_tokens/issues"
+  },
+  "homepage": "https://github.com/dallask/design_tokens#readme",
+  "dependencies": {
+    "token-transformer": "^0.0.29"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.7.2"
+  }
+}
