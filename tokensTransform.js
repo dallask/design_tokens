@@ -1,5 +1,5 @@
 const StyleDictionary =
-  require('style-dictionary').extend('config.json');
+  require('style-dictionary').extend('tokens.config.json');
 
 const pixelsToRem = (px) => {
   const rem = 16;
@@ -9,6 +9,13 @@ const pixelsToRem = (px) => {
 const appendPX = (value) => {
   return `${value}px`;
 };
+
+StyleDictionary.registerFilter({
+  name: 'excludeTokens',
+  matcher: function(token) {
+    return token.attributes.category !== 'border' && token.attributes.category !== 'boxShadow';
+  }
+})
 
 StyleDictionary.registerTransform({
   name: 'toRem/pxToRem',
