@@ -24,9 +24,17 @@
       "xl": {
         "value": "{dimension.lg} * {dimension.scale}",
         "type": "dimension"
+      },
+      "xxl": {
+        "value": "{dimension.xl} * {dimension.scale}",
+        "type": "dimension"
       }
     },
     "spacing": {
+      "0": {
+        "value": "0",
+        "type": "spacing"
+      },
       "xs": {
         "value": "{dimension.xs}",
         "type": "spacing"
@@ -47,6 +55,10 @@
         "value": "{dimension.xl}",
         "type": "spacing"
       },
+      "xxl": {
+        "value": "{dimension.xxl}",
+        "type": "spacing"
+      },
       "multi-value": {
         "value": "{dimension.sm} {dimension.xl}",
         "type": "spacing",
@@ -54,8 +66,20 @@
       }
     },
     "borderRadius": {
+      "0": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "xs": {
+        "value": "2",
+        "type": "borderRadius"
+      },
       "sm": {
         "value": "4",
+        "type": "borderRadius"
+      },
+      "md": {
+        "value": "6",
         "type": "borderRadius"
       },
       "lg": {
@@ -64,6 +88,10 @@
       },
       "xl": {
         "value": "16",
+        "type": "borderRadius"
+      },
+      "xxl": {
+        "value": "32",
         "type": "borderRadius"
       },
       "multi-value": {
