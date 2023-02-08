@@ -32,11 +32,13 @@ scss
 Good for you! You have now built your first style dictionary! Moving on, take a look at what we have built. This should have created a build directory and it should look like this:
 ```
 ├── README.md
-├── figma.tokens.json
-├── tokens.config.json
-├── tokensTransform.js
 ├── tokens/
-│   ├── sd.tokens.json
+│   ├── dist
+│       ├── sd.tokens.json
+│   ├── src
+│       ├── figma.tokens.json
+│   ├── tokens.config.json
+│   ├── tokensTransform.js
 ├── build/
 │   ├── css/
 │      ├── root.css
@@ -81,6 +83,8 @@ $size-font-medium: 1rem;
 $size-font-large: 2rem;
 $size-font-base: 1rem;
 ```
+
+The file tokensTransform.js sets [filters](https://amzn.github.io/style-dictionary/#/formats?id=filtering-tokens) and [transformation](https://amzn.github.io/style-dictionary/#/transforms?id=transforms) rules for the tokens.
 
 Pretty nifty! This shows a few things happening:
 1. The build system does a deep merge of all the token JSON files defined in the `source` attribute of `tokens.config.json`. This allows you to split up the token JSON files however you want. There are 2 JSON files with `color` as the top level key, but they get merged properly.

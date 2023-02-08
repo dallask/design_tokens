@@ -1,5 +1,5 @@
 const StyleDictionary =
-    require('style-dictionary').extend('tokens.config.json');
+    require('style-dictionary').extend('./tokens/tokens.config.json');
 
 const pixelsToRem = (px) => {
   const rem = 16;
