@@ -10,6 +10,7 @@ This example code is bare-bones to show you what this framework can do. If you h
 ```bash
 nvm use
 npm install
+npm run style:build (optional)
 npm run build:all
 ```
 
@@ -31,7 +32,9 @@ scss
 Good for you! You have now built your first style dictionary! Moving on, take a look at what we have built. This should have created a build directory and it should look like this:
 ```
 ├── README.md
-├── config.json
+├── figma.tokens.json
+├── tokens.config.json
+├── tokensTransform.js
 ├── tokens/
 │   ├── sd.tokens.json
 ├── build/
@@ -41,7 +44,7 @@ Good for you! You have now built your first style dictionary! Moving on, take a 
 │      ├── _variables.scss
 ```
 
-If you open `tokens.config.json` you will see there are 5 platforms defined: scss, android, compose, ios, and ios-swift. Each platform has a transformGroup, buildPath, and files. The buildPath and files of the platform should match up to the files what were built. The files built should look like these:
+If you open `tokens.config.json` you will see there are 2 platforms defined: scss, css. Each platform has a transformGroup, buildPath, and files. The buildPath and files of the platform should match up to the files what were built. The files built should look like these:
 
 **CSS**
 ```css
@@ -84,7 +87,7 @@ Pretty nifty! This shows a few things happening:
 1. The build system resolves references to other design tokens. `{size.font.medium.value}` gets resolved properly.
 1. The build system handles references to token values in other files as well as you can see in `tokens/color/font.json`.
 
-Now let's make a change and see how that affects things. Open up `tokens/color/base.json` and change `"#111111"` to `"#000000"`. After you make that change, save the file and re-run the build command `style-dictionary build`. Open up the build files and take a look.
+Now let's make a change and see how that affects things. Open up `tokens/color/base.json` and change `"#111111"` to `"#000000"`. After you make that change, save the file and re-run the build command `style:build`. Open up the build files and take a look.
 
 **Huzzah!**
 
