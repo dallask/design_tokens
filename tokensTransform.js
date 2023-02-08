@@ -1,5 +1,5 @@
 const StyleDictionary =
-  require('style-dictionary').extend('tokens.config.json');
+    require('style-dictionary').extend('tokens.config.json');
 
 const pixelsToRem = (px) => {
   const rem = 16;
@@ -12,8 +12,13 @@ const appendPX = (value) => {
 
 StyleDictionary.registerFilter({
   name: 'excludeTokens',
-  matcher: function(token) {
-    return token.attributes.category !== 'border' && token.attributes.category !== 'boxShadow';
+  matcher: function (token) {
+    const filteredAttr = [
+      'border',
+      'boxShadow'
+    ]
+
+    return !filteredAttr.includes(token.attributes.category);
   }
 })
 
@@ -22,14 +27,14 @@ StyleDictionary.registerTransform({
   type: 'value',
   matcher(token) {
     return (
-      (token.type === 'dimension' ||
-      token.type === 'fontSizes' ||
-      token.type === 'paragraphSpacing' ||
-      token.type === 'sizing' ||
-      token.type === 'spacing' ||
-      token.type === 'borderRadius' ||
-      token.path[0] === 'breakpoint' ||
-      token.path[0] === 'fontSize') && token.attributes.type !== 'multi-value'
+        (token.type === 'dimension' ||
+            token.type === 'fontSizes' ||
+            token.type === 'paragraphSpacing' ||
+            token.type === 'sizing' ||
+            token.type === 'spacing' ||
+            token.type === 'borderRadius' ||
+            token.path[0] === 'breakpoint' ||
+            token.path[0] === 'fontSize') && token.attributes.type !== 'multi-value'
     );
   },
   transformer(token) {
@@ -60,7 +65,7 @@ StyleDictionary.registerTransform({
   name: 'toPX/appendPX',
   type: 'value',
   matcher(token) {
-    return token.type === 'borderWidth';
+    return token.type === 'borderWidth' && token.attributes.type !== 'multi-value';
   },
   transformer(token) {
     return appendPX(token.value);

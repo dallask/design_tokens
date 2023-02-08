@@ -1,6 +1,6 @@
 # Basic Style Dictionary
 
-### Requirements
+#### Requirements
 
 * node.js (https://nodejs.org/)
 * npm (https://www.npmjs.com/)
@@ -10,8 +10,8 @@ This example code is bare-bones to show you what this framework can do. If you h
 ```bash
 nvm use
 npm install
-npm run style:build (optional)
-npm run build:all
+npm run tokens:build (optional)
+npm run tokens:all
 ```
 
 You should see something like this output:
@@ -87,8 +87,17 @@ Pretty nifty! This shows a few things happening:
 1. The build system resolves references to other design tokens. `{size.font.medium.value}` gets resolved properly.
 1. The build system handles references to token values in other files as well as you can see in `tokens/color/font.json`.
 
-Now let's make a change and see how that affects things. Open up `tokens/color/base.json` and change `"#111111"` to `"#000000"`. After you make that change, save the file and re-run the build command `style:build`. Open up the build files and take a look.
+Now let's make a change and see how that affects things. Open up `tokens/color/base.json` and change `"#111111"` to `"#000000"`. After you make that change, save the file and re-run the build command `tokens:build`. Open up the build files and take a look.
 
 **Huzzah!**
 
 Now go forth and create! Take a look at all the built-in [transforms](https://amzn.github.io/style-dictionary/#/transforms?id=pre-defined-transforms) and [formats](https://amzn.github.io/style-dictionary/#/formats?id=pre-defined-formats).
+
+#### References
+- [https://www.figma.com/community/plugin/843461159747178978/Tokens-Studio-for-Figma-(Figma-Tokens)](https://www.figma.com/community/plugin/843461159747178978/Tokens-Studio-for-Figma-(Figma-Tokens))
+- [https://github.com/tokens-studio/figma-plugin](https://github.com/tokens-studio/figma-plugin)
+- [https://docs.tokens.studio/](https://docs.tokens.studio/)
+- [https://github.com/emulsify-ds/emulsify-ui-kit](https://github.com/emulsify-ds/emulsify-ui-kit)
+- [https://amzn.github.io/style-dictionary](https://amzn.github.io/style-dictionary)
+- [https://www.npmjs.com/package/token-transformer](https://www.npmjs.com/package/token-transformer)
+

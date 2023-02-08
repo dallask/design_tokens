@@ -9,14 +9,15 @@
         "content/icon",
         "color/css",
         "toRem/pxToRem",
-        "toPX/appendPX",
-        "toRem/appendRem"
+        "toRem/appendRem",
+        "toPX/appendPX"
       ],
       "transformGroup": "scss",
       "buildPath": "build/scss/",
       "files": [{
         "destination": "_variables.scss",
-        "format": "scss/map-deep"
+        "format": "scss/map-deep",
+        "filter": "excludeTokens"
       }]
     },
     "css": {
@@ -27,8 +28,8 @@
         "content/icon",
         "color/css",
         "toRem/pxToRem",
-        "toPX/appendPX",
-        "toRem/appendRem"
+        "toRem/appendRem",
+        "toPX/appendPX"
       ],
       "transformGroup": "css",
       "buildPath": "build/css/",
