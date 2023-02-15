@@ -405,6 +405,84 @@
       }
     }
   },
+  "wrapper": {
+    "border": {
+      "type-A": {
+        "value": {
+          "color": "#dee2e6",
+          "style": "solid",
+          "width": 1
+        },
+        "type": "border"
+      },
+      "type-B": {
+        "value": {
+          "color": "#198754",
+          "style": "dashed",
+          "width": 3
+        },
+        "type": "border"
+      },
+      "type-C": {
+        "value": {
+          "color": "#0dcaf0",
+          "style": "solid",
+          "width": 5
+        },
+        "type": "border"
+      }
+    },
+    "background": {
+      "white": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "light": {
+        "value": "#f8f9fa",
+        "type": "color"
+      },
+      "green": {
+        "value": "#a3cfbb",
+        "type": "color"
+      },
+      "info": {
+        "value": "#0dcaf0",
+        "type": "color"
+      },
+      "primary": {
+        "value": "#75b798",
+        "type": "color"
+      }
+    },
+    "padding": {
+      "small": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "mediocre": {
+        "value": 16,
+        "type": "spacing"
+      },
+      "big": {
+        "value": 64,
+        "type": "spacing"
+      }
+    },
+    "gap": {
+      "condensed": {
+        "value": 4,
+        "type": "spacing"
+      },
+      "narrow": {
+        "value": 16,
+        "type": "spacing"
+      },
+      "wide": {
+        "value": 32,
+        "type": "spacing"
+      }
+    }
+  },
   "dimension": {
     "scale": {
       "value": 2,
