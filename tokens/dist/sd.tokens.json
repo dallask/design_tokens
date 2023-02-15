@@ -146,6 +146,10 @@
       "light": {
         "value": "#f8f9fa",
         "type": "color"
+      },
+      "green": {
+        "value": "#75b798",
+        "type": "color"
       }
     },
     "padding": {

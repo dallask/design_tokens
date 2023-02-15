@@ -915,6 +915,10 @@
         "light": {
           "value": "{colors.light}",
           "type": "color"
+        },
+        "green": {
+          "value": "{colors.green.300}",
+          "type": "color"
         }
       },
       "padding": {
