@@ -1,16 +1,184 @@
 {
   "cta": {
     "borderRadius": {
-      "value": 6,
-      "type": "borderRadius"
+      "none": {
+        "value": 0,
+        "type": "borderRadius"
+      },
+      "small": {
+        "value": 6,
+        "type": "borderRadius"
+      },
+      "big": {
+        "value": 16,
+        "type": "borderRadius"
+      }
+    },
+    "borderWidth": {
+      "none": {
+        "value": 0,
+        "type": "borderWidth"
+      },
+      "thin": {
+        "value": 1,
+        "type": "borderWidth"
+      },
+      "thick": {
+        "value": 4,
+        "type": "borderWidth"
+      }
+    },
+    "boxShadow": {
+      "variant one": {
+        "0": {
+          "x": {
+            "value": 3,
+            "type": "x"
+          },
+          "y": {
+            "value": 3,
+            "type": "y"
+          },
+          "spread": {
+            "value": 3,
+            "type": "spread"
+          },
+          "color": {
+            "value": "green",
+            "type": "color"
+          },
+          "blur": {
+            "value": 5,
+            "type": "blur"
+          },
+          "type": {
+            "value": "dropShadow",
+            "type": "type"
+          }
+        },
+        "1": {
+          "x": {
+            "value": 2,
+            "type": "x"
+          },
+          "y": {
+            "value": 2,
+            "type": "y"
+          },
+          "spread": {
+            "value": 3,
+            "type": "spread"
+          },
+          "color": {
+            "value": "green",
+            "type": "color"
+          },
+          "blur": {
+            "value": 5,
+            "type": "blur"
+          },
+          "type": {
+            "value": "innerShadow",
+            "type": "type"
+          }
+        }
+      },
+      "variant two": {
+        "0": {
+          "x": {
+            "value": 5,
+            "type": "x"
+          },
+          "y": {
+            "value": 5,
+            "type": "y"
+          },
+          "spread": {
+            "value": 3,
+            "type": "spread"
+          },
+          "color": {
+            "value": "#000",
+            "type": "color"
+          },
+          "blur": {
+            "value": 5,
+            "type": "blur"
+          },
+          "type": {
+            "value": "dropShadow",
+            "type": "type"
+          }
+        },
+        "1": {
+          "x": {
+            "value": 4,
+            "type": "x"
+          },
+          "y": {
+            "value": 4,
+            "type": "y"
+          },
+          "spread": {
+            "value": 6,
+            "type": "spread"
+          },
+          "color": {
+            "value": "#000033",
+            "type": "color"
+          },
+          "blur": {
+            "value": 5,
+            "type": "blur"
+          },
+          "type": {
+            "value": "innerShadow",
+            "type": "type"
+          }
+        }
+      }
     },
     "background": {
-      "value": "#6c757d",
-      "type": "color"
+      "white": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "light": {
+        "value": "#f8f9fa",
+        "type": "color"
+      }
     },
     "padding": {
-      "value": 16,
-      "type": "dimension"
+      "small": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "mediocre": {
+        "value": 16,
+        "type": "spacing"
+      },
+      "big": {
+        "value": 64,
+        "type": "spacing"
+      }
+    },
+    "gap": {
+      "none": {
+        "value": 0,
+        "type": "spacing"
+      },
+      "condensed": {
+        "value": 4,
+        "type": "spacing"
+      },
+      "narrow": {
+        "value": 16,
+        "type": "spacing"
+      },
+      "wide": {
+        "value": 128,
+        "type": "spacing"
+      }
     }
   },
   "dimension": {
@@ -184,7 +352,7 @@
     }
   },
   "border": {
-    "type A": {
+    "type-A": {
       "value": {
         "color": "#000",
         "style": "solid",
@@ -192,7 +360,7 @@
       },
       "type": "border"
     },
-    "type B": {
+    "type-B": {
       "value": {
         "color": "red",
         "style": "dashed",
@@ -676,7 +844,7 @@
     }
   },
   "boxShadow": {
-    "type A": {
+    "type-A": {
       "0": {
         "x": {
           "value": 3,
@@ -730,7 +898,7 @@
         }
       }
     },
-    "type B": {
+    "type-B": {
       "0": {
         "x": {
           "value": 5,
