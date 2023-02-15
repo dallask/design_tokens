@@ -921,6 +921,26 @@
           "type": "color"
         }
       },
+      "textColor": {
+        "white": {
+          "value": "{colors.white}",
+          "type": "color"
+        },
+        "black": {
+          "value": "{colors.black}",
+          "type": "color"
+        }
+      },
+      "buttonColor": {
+        "blue": {
+          "value": "{colors.primary}",
+          "type": "color"
+        },
+        "red": {
+          "value": "{colors.danger}",
+          "type": "color"
+        }
+      },
       "padding": {
         "small": {
           "value": "{dimension.sm}",

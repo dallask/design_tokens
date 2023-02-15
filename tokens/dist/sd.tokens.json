@@ -152,6 +152,26 @@
         "type": "color"
       }
     },
+    "textColor": {
+      "white": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "black": {
+        "value": "#000000",
+        "type": "color"
+      }
+    },
+    "buttonColor": {
+      "blue": {
+        "value": "#0d6efd",
+        "type": "color"
+      },
+      "red": {
+        "value": "#dc3545",
+        "type": "color"
+      }
+    },
     "padding": {
       "small": {
         "value": 8,
