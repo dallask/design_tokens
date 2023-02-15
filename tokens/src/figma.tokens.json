@@ -868,9 +868,9 @@
     }
   },
   "components": {
-    "card": {
+    "cta": {
       "borderRadius": {
-        "value": "{borderRadius.lg}",
+        "value": "{borderRadius.md}",
         "type": "borderRadius"
       },
       "background": {

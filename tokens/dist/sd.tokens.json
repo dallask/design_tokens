@@ -1,7 +1,7 @@
 {
-  "card": {
+  "cta": {
     "borderRadius": {
-      "value": 8,
+      "value": 6,
       "type": "borderRadius"
     },
     "background": {
