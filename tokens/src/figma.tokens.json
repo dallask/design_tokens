@@ -867,6 +867,22 @@
       }
     }
   },
+  "components": {
+    "card": {
+      "borderRadius": {
+        "value": "{borderRadius.lg}",
+        "type": "borderRadius"
+      },
+      "background": {
+        "value": "{colors.gray.600}",
+        "type": "color"
+      },
+      "padding": {
+        "value": "{dimension.md}",
+        "type": "dimension"
+      }
+    }
+  },
   "light": {
     "fg": {
       "default": {
@@ -1090,6 +1106,7 @@
   "$metadata": {
     "tokenSetOrder": [
       "core",
+      "components",
       "light",
       "dark",
       "theme"

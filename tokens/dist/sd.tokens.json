@@ -1,4 +1,18 @@
 {
+  "card": {
+    "borderRadius": {
+      "value": 8,
+      "type": "borderRadius"
+    },
+    "background": {
+      "value": "#6c757d",
+      "type": "color"
+    },
+    "padding": {
+      "value": 16,
+      "type": "dimension"
+    }
+  },
   "dimension": {
     "scale": {
       "value": 2,

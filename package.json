@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tokens:transform": "token-transformer ./tokens/src/figma.tokens.json ./tokens/dist/sd.tokens.json core --expandTypography=true --expandShadow=true",
+    "tokens:transform": "token-transformer ./tokens/src/figma.tokens.json ./tokens/dist/sd.tokens.json core,components --expandTypography=true --expandShadow=true",
     "tokens:build": "node ./tokens/tokensTransform.js",
     "tokens:all": "npm run tokens:transform && npm run tokens:build"
   },
