@@ -869,7 +869,7 @@
   },
   "components": {
     "cta": {
-      "borderRadius": {
+      "radius": {
         "none": {
           "value": "{borderRadius.0}",
           "type": "borderRadius"
@@ -883,7 +883,7 @@
           "type": "borderRadius"
         }
       },
-      "borderWidth": {
+      "width": {
         "none": {
           "value": "{borderWidth.0}",
           "type": "borderWidth"
@@ -897,7 +897,7 @@
           "type": "borderWidth"
         }
       },
-      "boxShadow": {
+      "shadow": {
         "variant one": {
           "value": "{boxShadow.type-A}",
           "type": "boxShadow"
@@ -921,7 +921,7 @@
           "type": "color"
         }
       },
-      "textColor": {
+      "text": {
         "white": {
           "value": "{colors.white}",
           "type": "color"
@@ -931,7 +931,7 @@
           "type": "color"
         }
       },
-      "buttonColor": {
+      "button": {
         "blue": {
           "value": "{colors.primary}",
           "type": "color"

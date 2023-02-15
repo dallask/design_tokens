@@ -1,6 +1,6 @@
 {
   "cta": {
-    "borderRadius": {
+    "radius": {
       "none": {
         "value": 0,
         "type": "borderRadius"
@@ -14,7 +14,7 @@
         "type": "borderRadius"
       }
     },
-    "borderWidth": {
+    "width": {
       "none": {
         "value": 0,
         "type": "borderWidth"
@@ -28,7 +28,7 @@
         "type": "borderWidth"
       }
     },
-    "boxShadow": {
+    "shadow": {
       "variant one": {
         "0": {
           "x": {
@@ -152,7 +152,7 @@
         "type": "color"
       }
     },
-    "textColor": {
+    "text": {
       "white": {
         "value": "#ffffff",
         "type": "color"
@@ -162,7 +162,7 @@
         "type": "color"
       }
     },
-    "buttonColor": {
+    "button": {
       "blue": {
         "value": "#0d6efd",
         "type": "color"
