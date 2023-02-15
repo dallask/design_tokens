@@ -1011,10 +1011,7 @@
   "$metadata": {
     "tokenSetOrder": [
       "core",
-      "components",
-      "light",
-      "dark",
-      "theme"
+      "components"
     ]
   }
 }
