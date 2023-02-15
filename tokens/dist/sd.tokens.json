@@ -1,4 +1,204 @@
 {
+  "button": {
+    "radius": {
+      "none": {
+        "value": 0,
+        "type": "borderRadius"
+      },
+      "rounded": {
+        "value": 6,
+        "type": "borderRadius"
+      },
+      "pill": {
+        "value": 16,
+        "type": "borderRadius"
+      }
+    },
+    "width": {
+      "none": {
+        "value": 0,
+        "type": "borderWidth"
+      },
+      "thin": {
+        "value": 1,
+        "type": "borderWidth"
+      },
+      "thick": {
+        "value": 4,
+        "type": "borderWidth"
+      }
+    },
+    "shadow": {
+      "variant one": {
+        "0": {
+          "x": {
+            "value": 3,
+            "type": "x"
+          },
+          "y": {
+            "value": 3,
+            "type": "y"
+          },
+          "spread": {
+            "value": 3,
+            "type": "spread"
+          },
+          "color": {
+            "value": "green",
+            "type": "color"
+          },
+          "blur": {
+            "value": 5,
+            "type": "blur"
+          },
+          "type": {
+            "value": "dropShadow",
+            "type": "type"
+          }
+        },
+        "1": {
+          "x": {
+            "value": 2,
+            "type": "x"
+          },
+          "y": {
+            "value": 2,
+            "type": "y"
+          },
+          "spread": {
+            "value": 3,
+            "type": "spread"
+          },
+          "color": {
+            "value": "green",
+            "type": "color"
+          },
+          "blur": {
+            "value": 5,
+            "type": "blur"
+          },
+          "type": {
+            "value": "innerShadow",
+            "type": "type"
+          }
+        }
+      },
+      "variant two": {
+        "0": {
+          "x": {
+            "value": 5,
+            "type": "x"
+          },
+          "y": {
+            "value": 5,
+            "type": "y"
+          },
+          "spread": {
+            "value": 3,
+            "type": "spread"
+          },
+          "color": {
+            "value": "#000",
+            "type": "color"
+          },
+          "blur": {
+            "value": 5,
+            "type": "blur"
+          },
+          "type": {
+            "value": "dropShadow",
+            "type": "type"
+          }
+        },
+        "1": {
+          "x": {
+            "value": 4,
+            "type": "x"
+          },
+          "y": {
+            "value": 4,
+            "type": "y"
+          },
+          "spread": {
+            "value": 6,
+            "type": "spread"
+          },
+          "color": {
+            "value": "#000033",
+            "type": "color"
+          },
+          "blur": {
+            "value": 5,
+            "type": "blur"
+          },
+          "type": {
+            "value": "innerShadow",
+            "type": "type"
+          }
+        }
+      }
+    },
+    "background": {
+      "white": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "success": {
+        "value": "#198754",
+        "type": "color"
+      },
+      "primary": {
+        "value": "#0d6efd",
+        "type": "color"
+      },
+      "danger": {
+        "value": "#dc3545",
+        "type": "color"
+      }
+    },
+    "text": {
+      "white": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "black": {
+        "value": "#000000",
+        "type": "color"
+      }
+    },
+    "padding": {
+      "small": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "middle": {
+        "value": 16,
+        "type": "spacing"
+      },
+      "large": {
+        "value": 32,
+        "type": "spacing"
+      }
+    },
+    "gap": {
+      "none": {
+        "value": 0,
+        "type": "spacing"
+      },
+      "condensed": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "narrow": {
+        "value": 16,
+        "type": "spacing"
+      },
+      "wide": {
+        "value": 32,
+        "type": "spacing"
+      }
+    }
+  },
   "cta": {
     "radius": {
       "none": {
