@@ -911,7 +911,7 @@
           "type": "borderRadius"
         },
         "pill": {
-          "value": "{borderRadius.xl}",
+          "value": "{borderRadius.xxl}",
           "type": "borderRadius"
         }
       },

@@ -10,7 +10,7 @@
         "type": "borderRadius"
       },
       "pill": {
-        "value": 16,
+        "value": 32,
         "type": "borderRadius"
       }
     },
