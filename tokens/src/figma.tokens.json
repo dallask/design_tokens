@@ -777,6 +777,22 @@
       "h2": {
         "value": "26",
         "type": "paragraphSpacing"
+      },
+      "h3": {
+        "value": "20",
+        "type": "paragraphSpacing"
+      },
+      "h4": {
+        "value": "16",
+        "type": "paragraphSpacing"
+      },
+      "h5": {
+        "value": "16",
+        "type": "paragraphSpacing"
+      },
+      "h6": {
+        "value": "16",
+        "type": "paragraphSpacing"
       }
     },
     "fontWeights": {
@@ -880,6 +896,102 @@
             "lineHeight": "{lineHeights.heading}",
             "fontSize": "{fontSizes.h2}",
             "paragraphSpacing": "{paragraphSpacing.h2}",
+            "letterSpacing": "{letterSpacing.decreased}"
+          }
+        }
+      },
+      "H3": {
+        "Bold": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{fontFamilies.heading}",
+            "fontWeight": "{fontWeights.headingBold}",
+            "lineHeight": "{lineHeights.heading}",
+            "fontSize": "{fontSizes.h3}",
+            "paragraphSpacing": "{paragraphSpacing.h3}",
+            "letterSpacing": "{letterSpacing.decreased}"
+          }
+        },
+        "Regular": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{fontFamilies.heading}",
+            "fontWeight": "{fontWeights.headingRegular}",
+            "lineHeight": "{lineHeights.heading}",
+            "fontSize": "{fontSizes.h3}",
+            "paragraphSpacing": "{paragraphSpacing.h3}",
+            "letterSpacing": "{letterSpacing.decreased}"
+          }
+        }
+      },
+      "H4": {
+        "Bold": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{fontFamilies.heading}",
+            "fontWeight": "{fontWeights.headingBold}",
+            "lineHeight": "{lineHeights.heading}",
+            "fontSize": "{fontSizes.h4}",
+            "paragraphSpacing": "{paragraphSpacing.h4}",
+            "letterSpacing": "{letterSpacing.decreased}"
+          }
+        },
+        "Regular": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{fontFamilies.heading}",
+            "fontWeight": "{fontWeights.headingRegular}",
+            "lineHeight": "{lineHeights.heading}",
+            "fontSize": "{fontSizes.h4}",
+            "paragraphSpacing": "{paragraphSpacing.h4}",
+            "letterSpacing": "{letterSpacing.decreased}"
+          }
+        }
+      },
+      "H5": {
+        "Bold": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{fontFamilies.heading}",
+            "fontWeight": "{fontWeights.headingBold}",
+            "lineHeight": "{lineHeights.heading}",
+            "fontSize": "{fontSizes.h5}",
+            "paragraphSpacing": "{paragraphSpacing.h5}",
+            "letterSpacing": "{letterSpacing.decreased}"
+          }
+        },
+        "Regular": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{fontFamilies.heading}",
+            "fontWeight": "{fontWeights.headingRegular}",
+            "lineHeight": "{lineHeights.heading}",
+            "fontSize": "{fontSizes.h5}",
+            "paragraphSpacing": "{paragraphSpacing.h5}",
+            "letterSpacing": "{letterSpacing.decreased}"
+          }
+        }
+      },
+      "H6": {
+        "Bold": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{fontFamilies.heading}",
+            "fontWeight": "{fontWeights.headingBold}",
+            "lineHeight": "{lineHeights.heading}",
+            "fontSize": "{fontSizes.h6}",
+            "paragraphSpacing": "{paragraphSpacing.h6}",
+            "letterSpacing": "{letterSpacing.decreased}"
+          }
+        },
+        "Regular": {
+          "type": "typography",
+          "value": {
+            "fontFamily": "{fontFamilies.heading}",
+            "fontWeight": "{fontWeights.headingRegular}",
+            "lineHeight": "{lineHeights.heading}",
+            "fontSize": "{fontSizes.h6}",
+            "paragraphSpacing": "{paragraphSpacing.h6}",
             "letterSpacing": "{letterSpacing.decreased}"
           }
         }
