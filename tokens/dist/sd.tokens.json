@@ -1223,19 +1223,19 @@
   },
   "fontSizes": {
     "h1": {
-      "value": 39.911,
+      "value": 48.829,
       "type": "fontSizes"
     },
     "h2": {
-      "value": 31.929,
+      "value": 39.063,
       "type": "fontSizes"
     },
     "h3": {
-      "value": 28.008,
+      "value": 31.25,
       "type": "fontSizes"
     },
     "h4": {
-      "value": 24,
+      "value": 25,
       "type": "fontSizes"
     },
     "h5": {
@@ -1275,7 +1275,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 39.911,
+          "value": 48.829,
           "type": "fontSizes"
         },
         "paragraphSpacing": {
@@ -1301,7 +1301,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 39.911,
+          "value": 48.829,
           "type": "fontSizes"
         },
         "paragraphSpacing": {
@@ -1329,7 +1329,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 31.929,
+          "value": 39.063,
           "type": "fontSizes"
         },
         "paragraphSpacing": {
@@ -1355,7 +1355,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": 31.929,
+          "value": 39.063,
           "type": "fontSizes"
         },
         "paragraphSpacing": {

@@ -803,15 +803,15 @@
         "type": "fontSizes"
       },
       "h2": {
-        "value": "{fontSizes.h3} * 1.14",
+        "value": "{fontSizes.h3} * 1.25",
         "type": "fontSizes"
       },
       "h3": {
-        "value": "{fontSizes.h4} * 1.167",
+        "value": "{fontSizes.h4} * 1.25",
         "type": "fontSizes"
       },
       "h4": {
-        "value": "{fontSizes.h5} * 1.2",
+        "value": "{fontSizes.h5} * 1.25",
         "type": "fontSizes"
       },
       "h5": {
