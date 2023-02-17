@@ -1135,6 +1135,10 @@
     "body": {
       "value": "Roboto",
       "type": "fontFamilies"
+    },
+    "footnote": {
+      "value": "Helvetica",
+      "type": "fontFamilies"
     }
   },
   "textCase": {
@@ -1177,6 +1181,10 @@
     "body": {
       "value": "140%",
       "type": "lineHeights"
+    },
+    "footnote": {
+      "value": "120%",
+      "type": "lineHeights"
     }
   },
   "letterSpacing": {
@@ -1215,6 +1223,10 @@
       "type": "paragraphSpacing"
     },
     "h6": {
+      "value": 16,
+      "type": "paragraphSpacing"
+    },
+    "body": {
       "value": 16,
       "type": "paragraphSpacing"
     }
@@ -1619,6 +1631,28 @@
       },
       "paragraphSpacing": {
         "value": 26,
+        "type": "paragraphSpacing"
+      }
+    },
+    "Footnote": {
+      "fontFamily": {
+        "value": "Helvetica",
+        "type": "fontFamilies"
+      },
+      "fontWeight": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "120%",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": 10.4,
+        "type": "fontSizes"
+      },
+      "paragraphSpacing": {
+        "value": 16,
         "type": "paragraphSpacing"
       }
     }
