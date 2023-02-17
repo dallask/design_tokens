@@ -663,44 +663,41 @@
       }
     },
     "boxShadow": {
-      "type-A": {
+      "sm": {
         "value": [
           {
-            "x": 3,
-            "y": 3,
-            "spread": 3,
-            "color": "green",
-            "blur": 5,
+            "x": 0,
+            "y": "0.125rem",
+            "color": "rgba({colors.black}, 0.075)",
+            "blur": "0.5rem",
+            "spread": 0,
             "type": "dropShadow"
-          },
-          {
-            "x": 2,
-            "y": 2,
-            "spread": 3,
-            "color": "green",
-            "blur": 5,
-            "type": "innerShadow"
           }
         ],
         "type": "boxShadow"
       },
-      "type-B": {
+      "md": {
         "value": [
           {
-            "x": 5,
-            "y": 5,
-            "spread": 3,
-            "color": "#000",
-            "blur": 5,
+            "x": 0,
+            "y": "0.5rem",
+            "color": "rgba({colors.black}, 0.15)",
+            "blur": "1rem",
+            "spread": 0,
             "type": "dropShadow"
-          },
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "lg": {
+        "value": [
           {
-            "x": 4,
-            "y": 4,
-            "spread": 6,
-            "color": "#000033",
-            "blur": 5,
-            "type": "innerShadow"
+            "x": 0,
+            "y": "1rem",
+            "color": "rgba({colors.black}, 0.17)",
+            "blur": "3rem",
+            "spread": "0",
+            "type": "dropShadow"
           }
         ],
         "type": "boxShadow"
@@ -931,11 +928,11 @@
       },
       "shadow": {
         "variant one": {
-          "value": "{boxShadow.type-A}",
+          "value": "{boxShadow.md}",
           "type": "boxShadow"
         },
         "variant two": {
-          "value": "{boxShadow.type-B}",
+          "value": "{boxShadow.lg}",
           "type": "boxShadow"
         }
       },
@@ -1031,11 +1028,11 @@
       },
       "shadow": {
         "variant one": {
-          "value": "{boxShadow.type-A}",
+          "value": "{boxShadow.md}",
           "type": "boxShadow"
         },
         "variant two": {
-          "value": "{boxShadow.type-B}",
+          "value": "{boxShadow.lg}",
           "type": "boxShadow"
         }
       },

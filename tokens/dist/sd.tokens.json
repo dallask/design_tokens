@@ -32,53 +32,27 @@
       "variant one": {
         "0": {
           "x": {
-            "value": 3,
+            "value": 0,
             "type": "x"
           },
           "y": {
-            "value": 3,
+            "value": "0.5rem",
             "type": "y"
           },
-          "spread": {
-            "value": 3,
-            "type": "spread"
-          },
           "color": {
-            "value": "green",
+            "value": "#00000026",
             "type": "color"
           },
           "blur": {
-            "value": 5,
+            "value": "1rem",
             "type": "blur"
+          },
+          "spread": {
+            "value": 0,
+            "type": "spread"
           },
           "type": {
             "value": "dropShadow",
-            "type": "type"
-          }
-        },
-        "1": {
-          "x": {
-            "value": 2,
-            "type": "x"
-          },
-          "y": {
-            "value": 2,
-            "type": "y"
-          },
-          "spread": {
-            "value": 3,
-            "type": "spread"
-          },
-          "color": {
-            "value": "green",
-            "type": "color"
-          },
-          "blur": {
-            "value": 5,
-            "type": "blur"
-          },
-          "type": {
-            "value": "innerShadow",
             "type": "type"
           }
         }
@@ -86,53 +60,27 @@
       "variant two": {
         "0": {
           "x": {
-            "value": 5,
+            "value": 0,
             "type": "x"
           },
           "y": {
-            "value": 5,
+            "value": "1rem",
             "type": "y"
           },
-          "spread": {
-            "value": 3,
-            "type": "spread"
-          },
           "color": {
-            "value": "#000",
+            "value": "#0000002b",
             "type": "color"
           },
           "blur": {
-            "value": 5,
+            "value": "3rem",
             "type": "blur"
+          },
+          "spread": {
+            "value": 0,
+            "type": "spread"
           },
           "type": {
             "value": "dropShadow",
-            "type": "type"
-          }
-        },
-        "1": {
-          "x": {
-            "value": 4,
-            "type": "x"
-          },
-          "y": {
-            "value": 4,
-            "type": "y"
-          },
-          "spread": {
-            "value": 6,
-            "type": "spread"
-          },
-          "color": {
-            "value": "#000033",
-            "type": "color"
-          },
-          "blur": {
-            "value": 5,
-            "type": "blur"
-          },
-          "type": {
-            "value": "innerShadow",
             "type": "type"
           }
         }
@@ -232,53 +180,27 @@
       "variant one": {
         "0": {
           "x": {
-            "value": 3,
+            "value": 0,
             "type": "x"
           },
           "y": {
-            "value": 3,
+            "value": "0.5rem",
             "type": "y"
           },
-          "spread": {
-            "value": 3,
-            "type": "spread"
-          },
           "color": {
-            "value": "green",
+            "value": "#00000026",
             "type": "color"
           },
           "blur": {
-            "value": 5,
+            "value": "1rem",
             "type": "blur"
+          },
+          "spread": {
+            "value": 0,
+            "type": "spread"
           },
           "type": {
             "value": "dropShadow",
-            "type": "type"
-          }
-        },
-        "1": {
-          "x": {
-            "value": 2,
-            "type": "x"
-          },
-          "y": {
-            "value": 2,
-            "type": "y"
-          },
-          "spread": {
-            "value": 3,
-            "type": "spread"
-          },
-          "color": {
-            "value": "green",
-            "type": "color"
-          },
-          "blur": {
-            "value": 5,
-            "type": "blur"
-          },
-          "type": {
-            "value": "innerShadow",
             "type": "type"
           }
         }
@@ -286,53 +208,27 @@
       "variant two": {
         "0": {
           "x": {
-            "value": 5,
+            "value": 0,
             "type": "x"
           },
           "y": {
-            "value": 5,
+            "value": "1rem",
             "type": "y"
           },
-          "spread": {
-            "value": 3,
-            "type": "spread"
-          },
           "color": {
-            "value": "#000",
+            "value": "#0000002b",
             "type": "color"
           },
           "blur": {
-            "value": 5,
+            "value": "3rem",
             "type": "blur"
+          },
+          "spread": {
+            "value": 0,
+            "type": "spread"
           },
           "type": {
             "value": "dropShadow",
-            "type": "type"
-          }
-        },
-        "1": {
-          "x": {
-            "value": 4,
-            "type": "x"
-          },
-          "y": {
-            "value": 4,
-            "type": "y"
-          },
-          "spread": {
-            "value": 6,
-            "type": "spread"
-          },
-          "color": {
-            "value": "#000033",
-            "type": "color"
-          },
-          "blur": {
-            "value": 5,
-            "type": "blur"
-          },
-          "type": {
-            "value": "innerShadow",
             "type": "type"
           }
         }
@@ -1146,110 +1042,86 @@
     }
   },
   "boxShadow": {
-    "type-A": {
+    "sm": {
       "0": {
         "x": {
-          "value": 3,
+          "value": 0,
           "type": "x"
         },
         "y": {
-          "value": 3,
+          "value": "0.125rem",
           "type": "y"
         },
-        "spread": {
-          "value": 3,
-          "type": "spread"
-        },
         "color": {
-          "value": "green",
+          "value": "#00000013",
           "type": "color"
         },
         "blur": {
-          "value": 5,
+          "value": "0.5rem",
           "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
         },
         "type": {
           "value": "dropShadow",
-          "type": "type"
-        }
-      },
-      "1": {
-        "x": {
-          "value": 2,
-          "type": "x"
-        },
-        "y": {
-          "value": 2,
-          "type": "y"
-        },
-        "spread": {
-          "value": 3,
-          "type": "spread"
-        },
-        "color": {
-          "value": "green",
-          "type": "color"
-        },
-        "blur": {
-          "value": 5,
-          "type": "blur"
-        },
-        "type": {
-          "value": "innerShadow",
           "type": "type"
         }
       }
     },
-    "type-B": {
+    "md": {
       "0": {
         "x": {
-          "value": 5,
+          "value": 0,
           "type": "x"
         },
         "y": {
-          "value": 5,
+          "value": "0.5rem",
           "type": "y"
         },
-        "spread": {
-          "value": 3,
-          "type": "spread"
-        },
         "color": {
-          "value": "#000",
+          "value": "#00000026",
           "type": "color"
         },
         "blur": {
-          "value": 5,
+          "value": "1rem",
           "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
         },
         "type": {
           "value": "dropShadow",
           "type": "type"
         }
-      },
-      "1": {
+      }
+    },
+    "lg": {
+      "0": {
         "x": {
-          "value": 4,
+          "value": 0,
           "type": "x"
         },
         "y": {
-          "value": 4,
+          "value": "1rem",
           "type": "y"
         },
-        "spread": {
-          "value": 6,
-          "type": "spread"
-        },
         "color": {
-          "value": "#000033",
+          "value": "#0000002b",
           "type": "color"
         },
         "blur": {
-          "value": 5,
+          "value": "3rem",
           "type": "blur"
         },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
         "type": {
-          "value": "innerShadow",
+          "value": "dropShadow",
           "type": "type"
         }
       }
