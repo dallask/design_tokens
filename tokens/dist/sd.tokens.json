@@ -1630,7 +1630,7 @@
         "type": "fontSizes"
       },
       "paragraphSpacing": {
-        "value": 26,
+        "value": 10,
         "type": "paragraphSpacing"
       }
     },

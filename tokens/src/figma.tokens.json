@@ -1015,7 +1015,7 @@
           "fontWeight": "{fontWeights.bodyRegular}",
           "lineHeight": "{lineHeights.heading}",
           "fontSize": "{fontSizes.body}",
-          "paragraphSpacing": "{paragraphSpacing.h2}"
+          "paragraphSpacing": "{paragraphSpacing.body}"
         }
       },
       "Footnote": {
