@@ -1311,7 +1311,7 @@
           "type": "paragraphSpacing"
         },
         "letterSpacing": {
-          "value": "-5%",
+          "value": 0,
           "type": "letterSpacing"
         }
       },
@@ -1337,7 +1337,7 @@
           "type": "paragraphSpacing"
         },
         "letterSpacing": {
-          "value": "-5%",
+          "value": 0,
           "type": "letterSpacing"
         }
       }
@@ -1365,7 +1365,7 @@
           "type": "paragraphSpacing"
         },
         "letterSpacing": {
-          "value": "-5%",
+          "value": 0,
           "type": "letterSpacing"
         }
       },
@@ -1391,7 +1391,7 @@
           "type": "paragraphSpacing"
         },
         "letterSpacing": {
-          "value": "-5%",
+          "value": 0,
           "type": "letterSpacing"
         }
       }
@@ -1419,7 +1419,7 @@
           "type": "paragraphSpacing"
         },
         "letterSpacing": {
-          "value": "-5%",
+          "value": 0,
           "type": "letterSpacing"
         }
       },
@@ -1445,7 +1445,7 @@
           "type": "paragraphSpacing"
         },
         "letterSpacing": {
-          "value": "-5%",
+          "value": 0,
           "type": "letterSpacing"
         }
       }
@@ -1473,7 +1473,7 @@
           "type": "paragraphSpacing"
         },
         "letterSpacing": {
-          "value": "-5%",
+          "value": 0,
           "type": "letterSpacing"
         }
       },
@@ -1499,7 +1499,7 @@
           "type": "paragraphSpacing"
         },
         "letterSpacing": {
-          "value": "-5%",
+          "value": 0,
           "type": "letterSpacing"
         }
       }
@@ -1527,7 +1527,7 @@
           "type": "paragraphSpacing"
         },
         "letterSpacing": {
-          "value": "-5%",
+          "value": 0,
           "type": "letterSpacing"
         }
       },
@@ -1553,7 +1553,7 @@
           "type": "paragraphSpacing"
         },
         "letterSpacing": {
-          "value": "-5%",
+          "value": 0,
           "type": "letterSpacing"
         }
       }
@@ -1581,7 +1581,7 @@
           "type": "paragraphSpacing"
         },
         "letterSpacing": {
-          "value": "-5%",
+          "value": 0,
           "type": "letterSpacing"
         }
       },
@@ -1607,7 +1607,7 @@
           "type": "paragraphSpacing"
         },
         "letterSpacing": {
-          "value": "-5%",
+          "value": 0,
           "type": "letterSpacing"
         }
       }
