@@ -124,7 +124,7 @@
         "type": "spacing"
       },
       "large": {
-        "value": 32,
+        "value": 24,
         "type": "spacing"
       }
     },
@@ -142,7 +142,7 @@
         "type": "spacing"
       },
       "wide": {
-        "value": 32,
+        "value": 24,
         "type": "spacing"
       }
     }
@@ -278,7 +278,7 @@
         "type": "spacing"
       },
       "big": {
-        "value": 64,
+        "value": 48,
         "type": "spacing"
       }
     },
@@ -296,7 +296,7 @@
         "type": "spacing"
       },
       "wide": {
-        "value": 128,
+        "value": 72,
         "type": "spacing"
       }
     }
@@ -360,7 +360,7 @@
         "type": "spacing"
       },
       "big": {
-        "value": 64,
+        "value": 48,
         "type": "spacing"
       }
     },
@@ -374,14 +374,14 @@
         "type": "spacing"
       },
       "wide": {
-        "value": 32,
+        "value": 24,
         "type": "spacing"
       }
     }
   },
   "dimension": {
     "scale": {
-      "value": 2,
+      "value": 16,
       "type": "dimension"
     },
     "xs": {
@@ -397,15 +397,15 @@
       "type": "dimension"
     },
     "lg": {
-      "value": 32,
+      "value": 24,
       "type": "dimension"
     },
     "xl": {
-      "value": 64,
+      "value": 48,
       "type": "dimension"
     },
     "xxl": {
-      "value": 128,
+      "value": 72,
       "type": "dimension"
     }
   },
@@ -427,19 +427,19 @@
       "type": "spacing"
     },
     "lg": {
-      "value": 32,
+      "value": 24,
       "type": "spacing"
     },
     "xl": {
-      "value": 64,
+      "value": 48,
       "type": "spacing"
     },
     "xxl": {
-      "value": 128,
+      "value": 72,
       "type": "spacing"
     },
     "multi-value": {
-      "value": "8 64",
+      "value": "8 48",
       "type": "spacing",
       "description": "You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens"
     }
@@ -462,19 +462,19 @@
       "type": "sizing"
     },
     "lg": {
-      "value": 32,
+      "value": 24,
       "type": "sizing"
     },
     "xl": {
-      "value": 64,
+      "value": 48,
       "type": "sizing"
     },
     "xxl": {
-      "value": 128,
+      "value": 72,
       "type": "sizing"
     },
     "multi-value": {
-      "value": "8 64",
+      "value": "8 48",
       "type": "sizing",
       "description": "You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens"
     }

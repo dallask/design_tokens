@@ -2,31 +2,31 @@
   "core": {
     "dimension": {
       "scale": {
-        "value": "2",
+        "value": "16",
         "type": "dimension"
       },
       "xs": {
-        "value": "4",
+        "value": "{dimension.scale} * 0.25",
         "type": "dimension"
       },
       "sm": {
-        "value": "{dimension.xs} * {dimension.scale}",
+        "value": "{dimension.scale} * 0.5",
         "type": "dimension"
       },
       "md": {
-        "value": "{dimension.sm} * {dimension.scale}",
+        "value": "{dimension.scale} * 1",
         "type": "dimension"
       },
       "lg": {
-        "value": "{dimension.md} * {dimension.scale}",
+        "value": "{dimension.scale} * 1.5",
         "type": "dimension"
       },
       "xl": {
-        "value": "{dimension.lg} * {dimension.scale}",
+        "value": "{dimension.scale} * 3",
         "type": "dimension"
       },
       "xxl": {
-        "value": "{dimension.xl} * {dimension.scale}",
+        "value": "{dimension.scale} * 4.5",
         "type": "dimension"
       }
     },
@@ -1110,7 +1110,7 @@
         "large": {
         "value": "{dimension.lg}",
         "type": "spacing"
-      }
+        }
       },
       "gap": {
         "none": {
