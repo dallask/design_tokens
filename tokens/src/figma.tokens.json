@@ -779,27 +779,27 @@
     },
     "paragraphSpacing": {
       "h1": {
-        "value": "32",
+        "value": "8",
         "type": "paragraphSpacing"
       },
       "h2": {
-        "value": "26",
+        "value": "8",
         "type": "paragraphSpacing"
       },
       "h3": {
-        "value": "20",
+        "value": "8",
         "type": "paragraphSpacing"
       },
       "h4": {
-        "value": "16",
+        "value": "8",
         "type": "paragraphSpacing"
       },
       "h5": {
-        "value": "16",
+        "value": "8",
         "type": "paragraphSpacing"
       },
       "h6": {
-        "value": "16",
+        "value": "8",
         "type": "paragraphSpacing"
       },
       "body": {
