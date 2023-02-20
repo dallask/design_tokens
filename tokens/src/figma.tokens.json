@@ -751,15 +751,15 @@
     },
     "lineHeights": {
       "heading": {
-        "value": "110%",
+        "value": "120%",
         "type": "lineHeights"
       },
       "body": {
-        "value": "140%",
+        "value": "150%",
         "type": "lineHeights"
       },
       "footnote": {
-        "value": "120%",
+        "value": "130%",
         "type": "lineHeights"
       }
     },
@@ -1013,7 +1013,7 @@
         "value": {
           "fontFamily": "{fontFamilies.body}",
           "fontWeight": "{fontWeights.bodyRegular}",
-          "lineHeight": "{lineHeights.heading}",
+          "lineHeight": "{lineHeights.body}",
           "fontSize": "{fontSizes.body}",
           "paragraphSpacing": "{paragraphSpacing.body}"
         }
