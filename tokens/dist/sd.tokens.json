@@ -1,12 +1,16 @@
 {
   "button": {
     "radius": {
-      "none": {
-        "value": 0,
+      "sm": {
+        "value": 3.2,
         "type": "borderRadius"
       },
-      "rounded": {
+      "md": {
         "value": 4,
+        "type": "borderRadius"
+      },
+      "lg": {
+        "value": 4.8,
         "type": "borderRadius"
       },
       "pill": {

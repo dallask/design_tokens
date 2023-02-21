@@ -1181,12 +1181,16 @@
   "components": {
     "button": {
       "radius": {
-        "none": {
-          "value": "0",
+        "sm": {
+          "value": "{borderRadius.sm}",
           "type": "borderRadius"
         },
-        "rounded": {
+        "md": {
           "value": "{borderRadius.md}",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "{borderRadius.lg}",
           "type": "borderRadius"
         },
         "pill": {
