@@ -260,6 +260,10 @@
     },
     "background": {
       "primary": {
+        "transparent": {
+          "value": "#ffffff00",
+          "type": "color"
+        },
         "default": {
           "value": "#0d6efd",
           "type": "color"

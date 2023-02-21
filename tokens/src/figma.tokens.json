@@ -1248,6 +1248,10 @@
       },
       "background": {
         "primary": {
+          "transparent": {
+            "value": "rgba({colors.white}, 0)",
+            "type": "color"
+          },
           "default": {
             "value": "{colors.primary}",
             "type": "color"
