@@ -6,11 +6,11 @@
         "type": "borderRadius"
       },
       "rounded": {
-        "value": 6,
+        "value": 4,
         "type": "borderRadius"
       },
       "pill": {
-        "value": 32,
+        "value": 800,
         "type": "borderRadius"
       }
     },
@@ -154,11 +154,11 @@
         "type": "borderRadius"
       },
       "small": {
-        "value": 6,
+        "value": 4,
         "type": "borderRadius"
       },
       "big": {
-        "value": 16,
+        "value": 4.8,
         "type": "borderRadius"
       }
     },
@@ -480,45 +480,29 @@
     }
   },
   "borderRadius": {
-    "0": {
-      "value": 0,
-      "type": "borderRadius"
-    },
-    "xs": {
-      "value": 2,
-      "type": "borderRadius"
-    },
     "sm": {
-      "value": 4,
+      "value": 3.2,
       "type": "borderRadius"
     },
     "md": {
-      "value": 6,
+      "value": 4,
       "type": "borderRadius"
     },
     "lg": {
-      "value": 8,
+      "value": 4.8,
       "type": "borderRadius"
     },
-    "xl": {
-      "value": 16,
-      "type": "borderRadius"
-    },
-    "xxl": {
-      "value": 32,
+    "pill": {
+      "value": 800,
       "type": "borderRadius"
     },
     "multi-value": {
-      "value": "4 8",
+      "value": "3.2 4.8",
       "type": "borderRadius",
       "description": "You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values"
     }
   },
   "borderWidth": {
-    "0": {
-      "value": 0,
-      "type": "borderWidth"
-    },
     "xs": {
       "value": 1,
       "type": "borderWidth"
@@ -536,15 +520,11 @@
       "type": "borderWidth"
     },
     "xl": {
-      "value": 6,
-      "type": "borderWidth"
-    },
-    "xxl": {
-      "value": 12,
+      "value": 5,
       "type": "borderWidth"
     },
     "multi-value": {
-      "value": "2 3 4 6",
+      "value": "2 3 4 5",
       "type": "borderWidth",
       "description": "You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values"
     }

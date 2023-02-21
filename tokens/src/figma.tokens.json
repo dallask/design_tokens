@@ -101,32 +101,20 @@
       }
     },
     "borderRadius": {
-      "0": {
-        "value": "0",
-        "type": "borderRadius"
-      },
-      "xs": {
-        "value": "2",
-        "type": "borderRadius"
-      },
       "sm": {
-        "value": "4",
+        "value": "3.2",
         "type": "borderRadius"
       },
       "md": {
-        "value": "6",
+        "value": "4",
         "type": "borderRadius"
       },
       "lg": {
-        "value": "8",
+        "value": "4.8",
         "type": "borderRadius"
       },
-      "xl": {
-        "value": "16",
-        "type": "borderRadius"
-      },
-      "xxl": {
-        "value": "32",
+      "pill": {
+        "value": "800",
         "type": "borderRadius"
       },
       "multi-value": {
@@ -136,10 +124,6 @@
       }
     },
     "borderWidth": {
-      "0": {
-        "value": "0",
-        "type": "borderWidth"
-      },
       "xs": {
         "value": "1",
         "type": "borderWidth"
@@ -157,11 +141,7 @@
         "type": "borderWidth"
       },
       "xl": {
-        "value": "6",
-        "type": "borderWidth"
-      },
-      "xxl": {
-        "value": "12",
+        "value": "5",
         "type": "borderWidth"
       },
       "multi-value": {
@@ -1034,7 +1014,7 @@
     "button": {
       "radius": {
         "none": {
-          "value": "{borderRadius.0}",
+          "value": "0",
           "type": "borderRadius"
         },
         "rounded": {
@@ -1042,13 +1022,13 @@
           "type": "borderRadius"
         },
         "pill": {
-          "value": "{borderRadius.xxl}",
+          "value": "{borderRadius.pill}",
           "type": "borderRadius"
         }
       },
       "width": {
         "none": {
-          "value": "{borderWidth.0}",
+          "value": "0",
           "type": "borderWidth"
         },
         "thin": {
@@ -1134,7 +1114,7 @@
     "cta": {
       "radius": {
         "none": {
-          "value": "{borderRadius.0}",
+          "value": "0",
           "type": "borderRadius"
         },
         "small": {
@@ -1142,13 +1122,13 @@
           "type": "borderRadius"
         },
         "big": {
-          "value": "{borderRadius.xl}",
+          "value": "{borderRadius.lg}",
           "type": "borderRadius"
         }
       },
       "width": {
         "none": {
-          "value": "{borderWidth.0}",
+          "value": "0",
           "type": "borderWidth"
         },
         "thin": {
