@@ -1198,18 +1198,52 @@
           "type": "borderRadius"
         }
       },
-      "width": {
-        "none": {
-          "value": "0",
-          "type": "borderWidth"
+      "fontSizes": {
+        "sm": {
+          "value": "{fontSizes.body} * 0.875",
+          "type": "fontSizes"
         },
-        "thin": {
-          "value": "{borderWidth.xs}",
-          "type": "borderWidth"
+        "md": {
+          "value": "{fontSizes.body}",
+          "type": "fontSizes"
         },
-        "thick": {
-          "value": "{borderWidth.lg}",
-          "type": "borderWidth"
+        "lg": {
+          "value": "{fontSizes.body} * 1.25",
+          "type": "fontSizes"
+        }
+      },
+      "boxShadow": {
+        "primary": {
+          "value": "{boxShadow.primary}",
+          "type": "boxShadow"
+        },
+        "secondary": {
+          "value": "{boxShadow.secondary}",
+          "type": "boxShadow"
+        },
+        "success": {
+          "value": "{boxShadow.success}",
+          "type": "boxShadow"
+        },
+        "danger": {
+          "value": "{boxShadow.danger}",
+          "type": "boxShadow"
+        },
+        "warning": {
+          "value": "{boxShadow.warning}",
+          "type": "boxShadow"
+        },
+        "info": {
+          "value": "{boxShadow.info}",
+          "type": "boxShadow"
+        },
+        "light": {
+          "value": "{boxShadow.light}",
+          "type": "boxShadow"
+        },
+        "dark": {
+          "value": "{boxShadow.dark}",
+          "type": "boxShadow"
         }
       },
       "background": {
