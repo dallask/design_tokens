@@ -600,6 +600,70 @@
     }
   },
   "border": {
+    "primary": {
+      "value": {
+        "color": "#0d6efd",
+        "style": "solid",
+        "width": 1
+      },
+      "type": "border"
+    },
+    "secondary": {
+      "value": {
+        "color": "#6c757d",
+        "style": "solid",
+        "width": 1
+      },
+      "type": "border"
+    },
+    "success": {
+      "value": {
+        "color": "#198754",
+        "style": "solid",
+        "width": 1
+      },
+      "type": "border"
+    },
+    "danger": {
+      "value": {
+        "color": "#dc3545",
+        "style": "solid",
+        "width": 1
+      },
+      "type": "border"
+    },
+    "warning": {
+      "value": {
+        "color": "#ffc107",
+        "style": "solid",
+        "width": 1
+      },
+      "type": "border"
+    },
+    "info": {
+      "value": {
+        "color": "#0dcaf0",
+        "style": "solid",
+        "width": 1
+      },
+      "type": "border"
+    },
+    "light": {
+      "value": {
+        "color": "#f8f9fa",
+        "style": "solid",
+        "width": 1
+      },
+      "type": "border"
+    },
+    "dark": {
+      "value": {
+        "color": "#212529",
+        "style": "solid",
+        "width": 1
+      },
+      "type": "border"
+    },
     "type-A": {
       "value": {
         "color": "#000",
@@ -1271,7 +1335,7 @@
           "type": "y"
         },
         "color": {
-          "value": "#d3d4d580",
+          "value": "#f8f9fa80",
           "type": "color"
         },
         "blur": {
