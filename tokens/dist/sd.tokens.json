@@ -28,66 +28,12 @@
         "type": "borderWidth"
       }
     },
-    "shadow": {
-      "variant one": {
-        "0": {
-          "x": {
-            "value": 0,
-            "type": "x"
-          },
-          "y": {
-            "value": "0.5rem",
-            "type": "y"
-          },
-          "color": {
-            "value": "#00000026",
-            "type": "color"
-          },
-          "blur": {
-            "value": "1rem",
-            "type": "blur"
-          },
-          "spread": {
-            "value": 0,
-            "type": "spread"
-          },
-          "type": {
-            "value": "dropShadow",
-            "type": "type"
-          }
-        }
-      },
-      "variant two": {
-        "0": {
-          "x": {
-            "value": 0,
-            "type": "x"
-          },
-          "y": {
-            "value": "1rem",
-            "type": "y"
-          },
-          "color": {
-            "value": "#0000002b",
-            "type": "color"
-          },
-          "blur": {
-            "value": "3rem",
-            "type": "blur"
-          },
-          "spread": {
-            "value": 0,
-            "type": "spread"
-          },
-          "type": {
-            "value": "dropShadow",
-            "type": "type"
-          }
-        }
-      }
-    },
     "background": {
-      "white": {
+      "primary": {
+        "value": "#0d6efd",
+        "type": "color"
+      },
+      "secondary": {
         "value": "#ffffff",
         "type": "color"
       },
@@ -95,12 +41,24 @@
         "value": "#198754",
         "type": "color"
       },
-      "primary": {
-        "value": "#0d6efd",
-        "type": "color"
-      },
       "danger": {
         "value": "#dc3545",
+        "type": "color"
+      },
+      "warning": {
+        "value": "#ffc107",
+        "type": "color"
+      },
+      "info": {
+        "value": "#0dcaf0",
+        "type": "color"
+      },
+      "light": {
+        "value": "#f8f9fa",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#212529",
         "type": "color"
       }
     },
@@ -116,15 +74,15 @@
     },
     "padding": {
       "small": {
-        "value": 8,
+        "value": "4 8",
         "type": "spacing"
       },
       "middle": {
-        "value": 16,
+        "value": "6 12",
         "type": "spacing"
       },
       "large": {
-        "value": 24,
+        "value": "8 16",
         "type": "spacing"
       }
     },
