@@ -1042,36 +1042,148 @@
       },
       "background": {
         "primary": {
-          "value": "{colors.primary}",
-          "type": "color"
+          "default": {
+            "value": "{colors.primary}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#0B5ED7",
+            "type": "color"
+          },
+          "active": {
+            "value": "#0A58CA",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "rgba({colors.primary}, 0.65)",
+            "type": "color"
+          }
         },
         "secondary": {
-          "value": "{colors.white}",
-          "type": "color"
+          "default": {
+            "value": "{colors.secondary}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#5C636A",
+            "type": "color"
+          },
+          "active": {
+            "value": "#565E64",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "rgba({colors.secondary}, 0.65)",
+            "type": "color"
+          }
         },
         "success": {
-          "value": "{colors.success}",
-          "type": "color"
+          "default": {
+            "value": "{colors.success}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#157347",
+            "type": "color"
+          },
+          "active": {
+            "value": "#146C43",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "rgba({colors.success}, 0.65)",
+            "type": "color"
+          }
         },
         "danger": {
-          "value": "{colors.danger}",
-          "type": "color"
+          "default": {
+            "value": "{colors.danger}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#BB2D3B",
+            "type": "color"
+          },
+          "active": {
+            "value": "#B02A37",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "rgba({colors.danger}, 0.65)",
+            "type": "color"
+          }
         },
         "warning": {
-          "value": "{colors.warning}",
-          "type": "color"
+          "default": {
+            "value": "{colors.warning}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#FFCA2C",
+            "type": "color"
+          },
+          "active": {
+            "value": "#FFCD39",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "rgba({colors.warning}, 0.65)",
+            "type": "color"
+          }
         },
         "info": {
-          "value": "{colors.info}",
-          "type": "color"
+          "default": {
+            "value": "{colors.info}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#31D2F2",
+            "type": "color"
+          },
+          "active": {
+            "value": "#3DD5F3",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "rgba({colors.info}, 0.65)",
+            "type": "color"
+          }
         },
         "light": {
-          "value": "{colors.light}",
-          "type": "color"
+          "default": {
+            "value": "{colors.light}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#F9FAFB",
+            "type": "color"
+          },
+          "active": {
+            "value": "#F9FAFB",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "rgba({colors.light}, 0.65)",
+            "type": "color"
+          }
         },
         "dark": {
-          "value": "{colors.dark}",
-          "type": "color"
+          "default": {
+            "value": "{colors.dark}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#1C1F23",
+            "type": "color"
+          },
+          "active": {
+            "value": "#1A1E21",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "rgba({colors.dark}, 0.65)",
+            "type": "color"
+          }
         }
       },
       "text": {
