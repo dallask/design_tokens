@@ -643,6 +643,110 @@
       }
     },
     "boxShadow": {
+      "primary": {
+        "value": [
+          {
+            "x": 0,
+            "y": 0,
+            "color": "rgba(#3184FD, 0.5)",
+            "blur": 0,
+            "spread": 4,
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "secondary": {
+        "value": [
+          {
+            "x": 0,
+            "y": 0,
+            "color": "rgba(#828A91, 0.5)",
+            "blur": 0,
+            "spread": 4,
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "success": {
+        "value": [
+          {
+            "x": 0,
+            "y": 0,
+            "color": "rgba(#3C996E, 0.5)",
+            "blur": 0,
+            "spread": 4,
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "danger": {
+        "value": [
+          {
+            "x": 0,
+            "y": 0,
+            "color": "rgba(#E15361, 0.5)",
+            "blur": 0,
+            "spread": 4,
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "warning": {
+        "value": [
+          {
+            "x": 0,
+            "y": 0,
+            "color": "rgba(#D9A406, 0.5)",
+            "blur": 0,
+            "spread": 4,
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "info": {
+        "value": [
+          {
+            "x": 0,
+            "y": 0,
+            "color": "rgba(#0BACCC, 0.5)",
+            "blur": 0,
+            "spread": 4,
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "light": {
+        "value": [
+          {
+            "x": 0,
+            "y": 0,
+            "color": "rgba(#D3D4D5, 0.5)",
+            "blur": 0,
+            "spread": 4,
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "dark": {
+        "value": [
+          {
+            "x": 0,
+            "y": 0,
+            "color": "rgba(#424649, 0.5)",
+            "blur": 0,
+            "spread": 4,
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
       "sm": {
         "value": [
           {
