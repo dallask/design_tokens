@@ -1439,6 +1439,112 @@
         }
       }
     },
+    "card": {
+      "radius": {
+        "none": {
+          "value": "0",
+          "type": "borderRadius"
+        },
+        "small": {
+          "value": "{borderRadius.md}",
+          "type": "borderRadius"
+        },
+        "big": {
+          "value": "{borderRadius.lg}",
+          "type": "borderRadius"
+        }
+      },
+      "width": {
+        "none": {
+          "value": "0",
+          "type": "borderWidth"
+        },
+        "thin": {
+          "value": "{borderWidth.xs}",
+          "type": "borderWidth"
+        },
+        "thick": {
+          "value": "{borderWidth.lg}",
+          "type": "borderWidth"
+        }
+      },
+      "shadow": {
+        "variant one": {
+          "value": "{boxShadow.md}",
+          "type": "boxShadow"
+        },
+        "variant two": {
+          "value": "{boxShadow.lg}",
+          "type": "boxShadow"
+        }
+      },
+      "background": {
+        "white": {
+          "value": "{colors.white}",
+          "type": "color"
+        },
+        "light": {
+          "value": "{colors.light}",
+          "type": "color"
+        },
+        "green": {
+          "value": "{colors.green.300}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "white": {
+          "value": "{colors.white}",
+          "type": "color"
+        },
+        "black": {
+          "value": "{colors.black}",
+          "type": "color"
+        }
+      },
+      "button": {
+        "blue": {
+          "value": "{colors.primary}",
+          "type": "color"
+        },
+        "red": {
+          "value": "{colors.danger}",
+          "type": "color"
+        }
+      },
+      "padding": {
+        "small": {
+          "value": "{dimension.sm}",
+          "type": "spacing"
+        },
+        "mediocre": {
+          "value": "{dimension.md}",
+          "type": "spacing"
+        },
+        "big": {
+          "value": "{dimension.xl}",
+          "type": "spacing"
+        }
+      },
+      "gap": {
+        "none": {
+          "value": "0",
+          "type": "spacing"
+        },
+        "condensed": {
+          "value": "{dimension.xs}",
+          "type": "spacing"
+        },
+        "narrow": {
+          "value": "{dimension.md}",
+          "type": "spacing"
+        },
+        "wide": {
+          "value": "{dimension.xxl}",
+          "type": "spacing"
+        }
+      }
+    },
     "cta": {
       "radius": {
         "none": {
@@ -1545,7 +1651,7 @@
         }
       }
     },
-    "wrapper": {
+    "layout": {
       "border": {
         "type-A": {
           "value": {
